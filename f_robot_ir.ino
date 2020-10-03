@@ -3,8 +3,8 @@ int LeftMotorForward=10;
 int RightMotorForward=8;
 int RightMotorBackward=9;
 
-int msh=150; //Motor Speed High
-int msl=120;
+int msh=200; //Motor Speed High
+int msl=100;
 //Motor Speed Low
 int sm=0;
 
