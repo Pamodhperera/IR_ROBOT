@@ -157,10 +157,10 @@ else{
 
 
 void moveForward(){
-analogWrite(LeftMotorForward,msh);
-analogWrite(RightMotorForward,msh);
-analogWrite(LeftMotorBackward,sm);
-analogWrite(RightMotorBackward,sm);
+analogWrite(LeftMotorForward,sm);
+analogWrite(RightMotorForward,sm);
+analogWrite(LeftMotorBackward,msm);
+analogWrite(RightMotorBackward,msm);
 
 }
 void moveRight(){
