@@ -152,9 +152,9 @@ else{
 }
 }
 
-
-
-
+void moveFast(){
+analogWrite(LeftMotorForward,200);
+analogWrite(RightMotorForward,200);
 
 void moveForward(){
 analogWrite(LeftMotorForward,sm);
