@@ -26,7 +26,7 @@ void setup() {
   pinMode(32,INPUT);
 
   moveForward();
-  delay(500);
+  delay(200);
   
 }
 
@@ -205,4 +205,5 @@ analogWrite(LeftMotorForward,sm);
 analogWrite(RightMotorForward,sm);
 analogWrite(LeftMotorBackward,100);
 analogWrite(RightMotorBackward,100);
+  stopMotors();
 }
