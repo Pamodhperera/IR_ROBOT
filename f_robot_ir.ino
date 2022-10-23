@@ -1,4 +1,4 @@
-int LeftMotorBackward=11;
+int LeftMotorBackward=10;
 int LeftMotorForward=08;
 int RightMotorForward=8;
 int RightMotorBackward=9;
