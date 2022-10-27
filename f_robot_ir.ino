@@ -1,6 +1,6 @@
 int LeftMotorBackward=11;
 int LeftMotorForward=10;
-int RightMotorForward=8;
+int RightMotorForward=10;
 int RightMotorBackward=9;
 
 int msh=200; //Motor Speed High
@@ -89,29 +89,6 @@ delay(10);
 moveLeftl();
 delay(100);
 }
-//000100
-else if (s1 == LOW && s2==LOW && s3 ==LOW && s4 == HIGH && s5 == LOW && s6 == LOW){
-moveRight();
-} 
-//000010
-else if (s1 == LOW && s2==LOW && s3 ==LOW && s4 == LOW && s5 == HIGH && s6 == LOW){
-moveRight();
-} 
-//000001
-else if (s1 == LOW && s2==LOW && s3 ==LOW && s4 == LOW && s5 == LOW && s6 == HIGH){
-moveRight();
-} 
-//000110
-else if (s1 == LOW && s2==LOW && s3 ==LOW && s4 == HIGH && s5 == HIGH && s6 == LOW){
-moveRight();
-} 
-//000011
-else if (s1 == LOW && s2==LOW && s3 ==LOW && s4 == LOW && s5 == HIGH && s6 == HIGH){
-moveRight();
-} 
-
-
-
 
 //000111
 else if (s1 == LOW && s2==LOW && s3 ==LOW && s4 == HIGH && s5 == HIGH && s6 == HIGH){
@@ -204,6 +181,6 @@ void moveBack(){
 analogWrite(LeftMotorForward,sm);
 analogWrite(RightMotorForward,sm);
 analogWrite(LeftMotorBackward,100);
-analogWrite(RightMotorBackward,100);
+analogWrite(RightMotorBackward,200);
   stopMotors();
 }
